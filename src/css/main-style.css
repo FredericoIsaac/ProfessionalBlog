@@ -1,0 +1,48 @@
+
+.container{
+    padding: 0px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 1000px;
+    grid-template-rows: 200px 50px 600px 100px;
+    grid-template-areas:
+    "banner"
+    "nav"
+    "main"
+    "ft";
+    }
+
+    .box{
+        background: #dfd7d5;
+        border: 1px solid red;
+    }
+
+    .banner{
+        background: #2e4053;
+        grid-area: banner;
+        background-image: url("images/hand_shake.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; /* alinha a imagem no centro da tela" */
+
+
+    }
+
+    .nav{
+        grid-area: nav;
+    }
+
+    .main{
+        grid-area: main;
+    }
+
+    .footer {
+        grid-area: ft;
+    }
+
+    .flex_nav {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        margin-top: 15px;
+    }
