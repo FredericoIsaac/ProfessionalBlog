@@ -39,10 +39,18 @@
         grid-area: ft;
     }
 
-    .flex_nav {
-        display:flex;
+    .flex_nav{
+        display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-content: center;
         margin-top: 15px;
     }
+
+    .flex_nav_ft{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-evenly;
+            margin: 40px;
+    }
+
