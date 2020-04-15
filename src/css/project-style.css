@@ -1,0 +1,41 @@
+
+@import "main-style.css";
+
+
+.projetos{
+    text-align:center;
+}
+
+.grid_projects{
+    display: grid;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "projeto1 projeto2"
+    "projeto3 projeto4";
+}
+
+
+#primeiro_projeto{
+    grid-area: projeto1;
+}
+
+#segundo_projeto{
+    grid-area: projeto3;
+}
+
+#terceiro_projeto{
+    grid-area: projeto3;
+}
+
+#quarto_projeto{
+    grid-area: projeto4;
+}
+
+.imagem_projeto{
+    width: 30%;
+}
