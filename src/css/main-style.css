@@ -53,8 +53,14 @@
     .flex_nav_ft{
             display: flex;
             flex-direction: row;
+                    justify-content: space-around;
+                    align-content: center;
+                    margin-top: 15px;
+
+            /*display: flex;
+            flex-direction: row;
             justify-content: flex-evenly;
-            margin: 40px;
+            margin: 40px; */
     }
 
     .imagem_avatar{
@@ -63,4 +69,17 @@
         height: 100px;
         margin-top: 20px;
     }
+
+    ul {
+        list-style-type: none;
+    }
+    li {
+        float: left;
+    }
+
+    .icone_social{
+        width: 50%;
+    }
+
+
 
