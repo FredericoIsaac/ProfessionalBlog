@@ -1,8 +1,7 @@
 
 .container{
-    padding: 0px 20px 20px 20px;
     display: grid;
-    grid-template-columns: 1000px;
+    grid-template-columns: auto;
     grid-template-rows: 200px 50px 600px 100px;
     grid-template-areas:
     "banner"
@@ -33,6 +32,10 @@
 
     .main{
         grid-area: main;
+        align-items: center;
+        justify-content: space-around;
+        text-align:center;
+
     }
 
     .footer {
@@ -52,5 +55,12 @@
             flex-direction: row;
             justify-content: flex-evenly;
             margin: 40px;
+    }
+
+    .imagem_avatar{
+        border-radius: 55px;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
     }
 
