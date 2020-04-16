@@ -1,0 +1,63 @@
+@import "main-style.css";
+
+.contactos{
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    width: 20%;
+}
+
+.flex_mails{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    align-items: center;
+}
+
+.titulo{
+    margin-left: -200px;
+}
+
+#contactos_titulo{
+    margin-top: 50px;
+}
+
+#redes_sociais{
+    margin-top: 50px;
+}
+
+.grid_social{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+    align-items: center;
+    margin-right: 12%;
+    grid-gap: 15px;
+    justify-content: center;
+    grid-template-areas:
+    "git dx_git"
+    "lk dx_lk";
+}
+
+.icone_social{
+    width: 50px;
+}
+
+#git{
+    grid-area: git;
+}
+
+#nome_git{
+    grid-area: dx_git;
+}
+
+#lk{
+    grid_area: lk;
+}
+
+#nome_lk{
+    grid-area: dx_lk;
+}

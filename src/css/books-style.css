@@ -1,0 +1,74 @@
+@import "main-style.css";
+
+
+.flex_why{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+}
+
+#reading{
+    text-align: center;
+    margin-right: 60px;
+}
+.the_why{
+    margin-left: -250px;
+}
+
+#book_children{
+    width: 30%;
+}
+
+.fred{
+    margin-top: 0px;
+}
+
+.book_cover{
+    width: 50%;
+}
+
+.grid_books{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    grid-template-areas:
+    "img_um des_um"
+    "img_dois des_dois";
+}
+
+#livro_um{
+    grid-area: img_um;
+}
+
+#livro_dois{
+    grid-area: img_dois;
+}
+
+#descricao_um{
+    grid-area: des_um;
+}
+
+#descricao_dois{
+    grid-area: des_dois;
+}
+
+.caixa_texto{
+    border: 1px solid black;
+    background: white;
+}
+
+.books{
+    padding: 20px;
+}
+
+.submit{
+    margin-top: 5px;
+}
+
+h1{
+    text-align:center;
+    margin-top: 0px;
+}
