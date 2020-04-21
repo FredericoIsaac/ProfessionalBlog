@@ -1,0 +1,40 @@
+@import "mainGrid.css";
+@import "header.css";
+@import "nav.css";
+@import "main.css";
+@import "footer.css";
+
+
+.mails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+
+.grid_social{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 80px 200px;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+    grid-template-areas:
+    "git dx_git"
+    "lk dx_lk";
+}
+
+#git{
+    grid-area: git;
+}
+
+#nome_git{
+    grid-area: dx_git;
+}
+
+#lk{
+    grid_area: lk;
+}
+
+#nome_lk{
+    grid-area: dx_lk;
+}

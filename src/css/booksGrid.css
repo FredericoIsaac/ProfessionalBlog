@@ -1,0 +1,45 @@
+@import "mainGrid.css";
+@import "header.css";
+@import "nav.css";
+@import "main.css";
+@import "footer.css";
+
+
+.why{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-gap: 10px;
+      margin-top: 10px;
+      margin-right: 200px;
+}
+
+.grid_books{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    grid-template-areas:
+    "img_um des_um"
+    "img_dois des_dois";
+}
+
+#livro_um{
+    grid-area: img_um;
+}
+
+#descricao_um{
+    grid-area: des_um;
+}
+
+#livro_dois{
+    grid-area: img_dois;
+}
+
+#descricao_dois{
+    grid-area: des_dois;
+}
+
+
+

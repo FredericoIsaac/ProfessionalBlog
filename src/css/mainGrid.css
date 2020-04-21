@@ -1,0 +1,86 @@
+
+@import "header.css";
+@import "nav.css";
+@import "main.css";
+@import "footer.css";
+
+    html{
+        font-family: sans-serif;
+        color: black;
+        background: #696969;
+    }
+
+    .container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px 50px 800px 100px;
+    grid-template-areas:
+    "banner"
+    "nav"
+    "main"
+    "ft";
+    }
+
+    .box{
+        background: #dbe0e7;
+        border: 2px solid black;
+    }
+
+    .banner{
+       grid-area: banner;
+       background: #2e4053;
+       background-image: url("images/hand_shake.jpg");
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: center;
+    }
+
+    .nav{
+        grid-area: nav;
+    }
+
+    .flex_nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+    .main{
+        grid-area: main;
+     }
+
+    .footer {
+        grid-area: ft;
+    }
+
+    .flex_nav_ft{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-content: center;
+       margin-top: 50px;
+    }
+
+    @media screen and (max-width: 1500px){
+        .container{
+        grid-template-rows: auto ;
+         }
+
+        .flex_why{
+              justify-content: center;
+              flex-wrap: wrap;
+              align-content: center;
+        }
+        .the_why{
+                text-align: justify;
+         }
+    }
+
+
+
+
+
+
+

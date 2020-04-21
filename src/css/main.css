@@ -1,0 +1,110 @@
+
+    /*index.html */
+    .imagem_avatar{
+        border-radius: 45px;
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    figcaption{
+        font-size: 15px;
+    }
+
+     #main_index{
+        align-items: center;
+        justify-content: space-around;
+        text-align:center;
+     }
+
+    /*project.html */
+
+     .projetos{
+             text-align:center;
+         }
+
+     .imagem_projeto{
+         width: 30%;
+     }
+
+    #imagem_gomas{
+        width: 180px;
+        height: 130px;
+    }
+
+    .titulo_projeto{
+        font-size: 25px;
+    }
+
+    .funcao_projeto{
+        font-size : 20px;
+    }
+
+    /*books.html */
+
+        #reading_image{
+          text-align: end;
+         }
+
+        #book_children{
+            width: 30%;
+         }
+
+        .book_cover{
+            width: 80%;
+        }
+
+        .caixa_texto{
+            border: 1px solid black;
+            background: white;
+            margin-bottom: 5px;
+        }
+
+        .books{
+            padding: 10px;
+        }
+
+        #top_books{
+            text-align:center;
+            margin-top : 0px;
+            }
+
+        #sugestoes_books{
+            margin-top: 5px;
+        }
+
+        /* contacts.html */
+
+        .contactos{
+            text-align: center;
+            padding: 20px;
+        }
+
+        #imagem{
+            width: 100px;
+        }
+        #icone_social{
+            width: 100px;
+        }
+
+        .img_contactos{
+            width: 100%;
+            height: 100%;
+        }
+
+        .titulo{
+            margin-left: 50px;
+        }
+
+        #contactos_titulo{
+            margin-top: 50px;
+        }
+
+        #redes_sociais{
+            margin-top: 50px;
+        }
+
+        .icone_hiperligacao{
+            width: 50px;
+        }

@@ -3,65 +3,116 @@
     <head>
         <meta charset="UTF-8">
         <title>Frederico Projetos</title>
-        <link rel="stylesheet" href="css/project-style.css">
+        <link rel="stylesheet" href="css/projectGrid.css">
     </head>
 
     <body>
         <div class="container">
-            <div class="banner box" id="banner"></div>
 
-            <div class="nav box">
+            <header class="banner box" id="banner_project"></header>
+
+            <nav class="nav box">
                 <div class="flex_nav">
-                    <div id="home" class="navegacao"><img src="https://img.icons8.com/material/24/000000/home--v5.png" class="icone_nav"><a href="index.html" alt="home" rel="main_page">Home</a></div>
-                    <div id="projects" class="navegacao"><img src="https://img.icons8.com/material/48/000000/laptop--v1.png" class="icone_nav"><a href="project.html" alt="page project" rel="project_page">Projects</a></div>
-                    <div id="books" class="navegacao"><img src="https://img.icons8.com/material/48/000000/read--v2.png" class="icone_nav"><a href="book.html" alt="book page" rel="book_page">Books</a></div>
-                    <div id="contact" class="navegacao"><img src="https://img.icons8.com/material/48/000000/filled-message--v1.png" class="icone_nav"><a href="contacts.html" alt="contactos page" rel="contacts_page">Contact</a></div>
+                    <div id="home_project" class="navegacao">
+                        <img src="https://img.icons8.com/material/24/000000/home--v5.png" alt="icon house" class="icone_nav">
+                        <a href="index.html"  rel="main_page">Home</a>
+                    </div>
+                    <div id="projects_project" class="navegacao">
+                        <img src="https://img.icons8.com/material/48/000000/laptop--v1.png" alt="icon project" class="icone_nav">
+                        <a href="project.html"  rel="project_page">Projects</a>
+                    </div>
+                    <div id="books_project" class="navegacao">
+                        <img src="https://img.icons8.com/material/48/000000/read--v2.png" alt="icon book" class="icone_nav">
+                        <a href="book.html"  rel="book_page">Books</a>
+                    </div>
+                    <div id="contact_project" class="navegacao">
+                        <img src="https://img.icons8.com/material/48/000000/filled-message--v1.png" alt="contactos icon" class="icone_nav">
+                        <a href="contacts.html"  rel="contacts_page">Contact</a>
+                    </div>
                 </div>
-            </div>
+            </nav>
 
-            <div class="projetos box">
-                <h2>O que fiz até agora:</h2>
+            <main class="projetos box">
+                <header>
+                    <h2>O que fiz até agora:</h2>
+                </header>
+
                 <div class="grid_projects">
-                    <div id="primeiro_projeto" class="projetos">
-                        <img src="css/images/projeto_contabilidade.jpg" class="imagem_projeto">
-                        <h2>Contabilidade - Silva & Sabino</h2>
-                        <h4>Assistente de Serviços Administrativos</h4>
-                        <p>Como parte do trabalho, oriento os colaboradores nas suas funções/tarefas, como faço gestão do ecnomato, e grande parte responsavél das tarefas de gestão administrativa.</p>
-                    </div>
+                    <article id="primeiro_projeto" class="projetos">
+                        <figure>
+                            <img src="css/images/projeto_contabilidade.jpg" class="imagem_projeto">
+                                <figcaption>
+                                    <p class="titulo_projeto"><b>Contabilidade - Silva & Sabino</b></p>
+                                    <p class="funcao_projeto"><u><i>Assistente de Serviços Administrativos</i></u></p>
+                                </figcaption>
+                        </figure>
+                    <p>Como parte do trabalho, oriento os colaboradores nas suas funções/tarefas, como faço gestão do ecnomato, e grande parte responsavél das tarefas de gestão administrativa.</p>
 
-                    <div id="segundo-projeto" class="projetos">
-                        <img src="css/images/projeto_seguros.png" class="imagem_projeto">
-                        <h2>Mediação de Seguros - Via Best Insurance</h2>
-                        <h4>Comercial de Seguros</h4>
+                    </article>
+
+                    <article id="segundo-projeto" class="projetos">
+                        <figure>
+                            <img src="css/images/projeto_seguros.png" class="imagem_projeto">
+                                <figcaption>
+                                    <p class="titulo_projeto"><b>Mediação de Seguros - Via Best Insurance</b></p>
+                                    <p class="funcao_projeto"><u><i>Comercial de Seguros</i></u></p>
+                                </figcaption>
+                        </figure>
                         <p>Especializado em seguros de vida, principal função era gerir carteira de clientes, como também angariar novos clientes</p>
-                    </div>
-                    <div id="terceiro-projeto" class="projetos">
-                        <img src="css/images/projeto_gomas.jpg" class="imagem_projeto" id="imagem_gomas">
-                        <h2>Revendedor de gomas, rebuçados e iogurtes - C.A. Alimentar </h2>
-                        <h4>Responsavel de produção</h4>
+                    </article>
+
+                    <article id="terceiro-projeto" class="projetos">
+                        <figure>
+                            <img src="css/images/projeto_gomas.jpg" class="imagem_projeto" id="imagem_gomas">
+                                <figcaption>
+                                    <p class="titulo_projeto"><b>Revendedor de gomas, rebuçados e iogurtes - C.A. Alimentar</b></p>
+                                    <p class="funcao_projeto"><u><i>Responsavel de produção</i></u></p>
+                                </figcaption>
+                        </figure>
                         <p>Principal função supervisionar reembalamento, responsavel de armazém como responsavel de faturação.</p>
-                    </div>
-                    <div id="quarto-projeto" class="projetos">
-                        <img src="css/images/assistente_credito.png" class="imagem_projeto">
-                        <h2>Analise de Creditos - RPcash</h2>
-                        <h4>Assistente de escritorio</h4>
+                    </article>
+
+                    <article id="quarto-projeto" class="projetos">
+                        <figure>
+                            <img src="css/images/assistente_credito.png" class="imagem_projeto">
+                                <figcaption>
+                                    <p class="titulo_projeto"><b>Analise de Creditos - RPcash</b></p>
+                                    <p class="funcao_projeto"><u><i>Assistente de escritorio</i></u></p>
+                                </figcaption>
+                        </figure>
                         <p>Tarefas como organizar documentos, atender clientes, arquivar e informatizar documentos.</p>
+                    </article>
+
+                </div>
+            </main>
+
+            <footer class="footer box">
+                <div class="flex_nav_ft">
+                    <div id="home_ft_project" class="navegacao">
+                        <img src="https://img.icons8.com/material/24/000000/home--v5.png" alt="icon house" class="icone_nav">
+                        <a href="index.html" rel="main_page">Home</a>
+                    </div>
+                    <div id="projects_ft_project" class="navegacao">
+                        <img src="https://img.icons8.com/material/48/000000/laptop--v1.png" alt="icon project" class="icone_nav">
+                        <a href="project.html" rel="project_page">Projects</a>
+                    </div>
+                    <div id="books_ft_project" class="navegacao">
+                        <img src="https://img.icons8.com/material/48/000000/read--v2.png" alt="icon book" class="icone_nav">
+                        <a href="book.html" rel="book_page">Books</a>
+                    </div>
+                    <div id="contact_ft_project" class="navegacao">
+                        <img src="https://img.icons8.com/material/48/000000/filled-message--v1.png" alt="contactos icon" class="icone_nav">
+                        <a href="contacts.html" rel="contacts_page">Contact</a>
+                    </div>
+                    <div id="linkedin_project" class="navegacao"><a href="https://pt.linkedin.com/" rel="social_network" target="_blank">
+                        <img src="https://img.icons8.com/material-sharp/48/000000/linkedin.png" alt="go to linkedin" class="icone_social"></a>
+                    </div>
+                    <div id="github_project" class="navegacao">
+                        <a href="https://github.com/FredericoIsaac" rel="social_network" target="_blank">
+                            <img src="https://img.icons8.com/material-sharp/48/000000/github.png" alt="go to gitHub" class="icone_social"></a>
                     </div>
                 </div>
-
-
-            </div>
-
-            <div class="footer box">
-                <div class="flex_nav_ft">
-                    <div id="home" class="navegacao"><img src="https://img.icons8.com/material/24/000000/home--v5.png" class="icone_nav"><a href="index.html" alt="home" rel="main_page">Home</a></div>
-                    <div id="projects" class="navegacao"><img src="https://img.icons8.com/material/48/000000/laptop--v1.png" class="icone_nav"><a href="project.html" alt="page project" rel="project_page">Projects</a></div>
-                    <div id="books" class="navegacao"><img src="https://img.icons8.com/material/48/000000/read--v2.png" class="icone_nav"><a href="book.html" alt="book page" rel="book_page">Books</a></div>
-                    <div id="contact" class="navegacao"><img src="https://img.icons8.com/material/48/000000/filled-message--v1.png" class="icone_nav"><a href="contacts.html" alt="contactos page" rel="contacts_page">Contact</a></div>
-                    <div id="linkedin" class="navegacao"><a href="https://pt.linkedin.com/" rel="social_network" target="_blank"><img src="https://img.icons8.com/material-sharp/48/000000/linkedin.png" alt="go to linkedin" class="icone_social"></a></div>
-                    <div id="github" class="navegacao"><a href="https://github.com/FredericoIsaac" rel="social_network" target="_blank"><img src="https://img.icons8.com/material-sharp/48/000000/github.png" alt="go to gitHub" class="icone_social"></a></div>
-                </div>
-            </div>
+            </footer>
 
         </div>
 
